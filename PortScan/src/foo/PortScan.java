@@ -36,7 +36,7 @@ public class PortScan {
 	/**
 	 * @param args
 	 */
-	private Connection conn;
+	private Connection conn = null;
 
 	public static void main(String[] args) {
 		PortScan ps = new PortScan();
